@@ -1,9 +1,10 @@
+
 h1{		
 	color: blue;}
 	h1 {
 	text-align: center
 }
-	
+/* bestämmer storlek och position på google logan*/	
 	#logo {
   max-width: 272px;
   height: auto;
@@ -14,6 +15,7 @@ h1{
   top: 34%; 
   transform: translate(-50%, -50%);
 }
+/*position och storlek på box och container*/
 .container {
   display: flex;
   justify-content: center;
@@ -46,7 +48,7 @@ a {
 	 font-family: Arial, sans-serif;
 	 font-size: 14px;
 }
-
+/* position, font och storlek på texten*/
 .namn {
 	
  position: absolute;
@@ -62,6 +64,7 @@ b {
 	 font-family: Arial, sans-serif;
 	 font-size: 14px;
 }
+/*position, font och storlek på texten*/
 .namn2 {
 position: absolute;
 top: 20px;
@@ -69,6 +72,8 @@ left: 1350px;
 display: flex;
 gap: 20px;
 }
+
+/* position och storlek för 3x3 griden i vänstra hörn*/
 #våffla {
  position: absolute;
   left: 97%;
