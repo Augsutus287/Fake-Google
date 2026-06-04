@@ -1,2 +1,82 @@
 h1{		
 	color: blue;}
+	h1 {
+	text-align: center
+}
+	
+	#logo {
+  max-width: 272px;
+  height: auto;
+}
+#logo {
+  position: absolute;
+  left: 50%;
+  top: 34%; 
+  transform: translate(-50%, -50%);
+}
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 320px;
+}
+.box {
+  width: 550px;
+  height: 44px;
+  border: 1px solid black;
+  margin-top:20px;
+  border-radius: 30px;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden
+
+}
+
+
+.box input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+	
+a {
+	text-decoration:none;
+	color: #202124;
+	 font-family: Arial, sans-serif;
+	 font-size: 14px;
+}
+
+.namn {
+	
+ position: absolute;
+  top: 20px;
+  left: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+b {
+	text-decoration:none;
+	color: #202124;
+	 font-family: Arial, sans-serif;
+	 font-size: 14px;
+}
+.namn2 {
+position: absolute;
+top: 20px;
+left: 1350px;
+display: flex;
+gap: 20px;
+}
+#våffla {
+ position: absolute;
+  left: 97%;
+  top: 30px; 
+  transform: translate(-50%, -50%);
+}
+
+#våffla {
+	max-width: 30px;
+	height: auto;
+}
